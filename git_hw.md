@@ -134,7 +134,7 @@ git commit -m "Добавили инструкцию как создать pull 
 git push --set-upstream origin updatereadme
 ```
 
-If it is your first pushing, than you should try to connect accounts. After you do this? your version of document will be disolayed in web.
+If it is your first pushing, than you should try to connect accounts. After you do this, your version of document will be displayed in web. Update the page.
 
-5. Look at your web repository. Chouse branch **<branch_name>e** and press the button **Compare & pull request**
+5. Look at your web repository. Chouse branch **<branch_name>** and press the button **Compare & pull request**
 
