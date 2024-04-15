@@ -131,7 +131,7 @@ git commit -m "Добавили инструкцию как создать pull 
 ```
 4. Make push  
 ```sh
-git push --set-upstream origin updatereadme
+git push --set-upstream origin <branch_name>
 ```
 
 If it is your first pushing, than you should try to connect accounts. After you do this, your version of document will be displayed in web. Update the page.
