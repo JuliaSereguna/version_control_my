@@ -113,27 +113,28 @@ git log --oneline --graph
 
 *Here we learn how to work with remoteled files*
 
-#### Первые шаги
+#### First steps
 
-1. Делаем fork репозитория, в которой потом хотим сделать pull request. Ищем кнопку Fork на странице репозитория 
-[пример ссылки](https://git@github.com:gulden-geekbrains/version_control.git "необходимый репозиторий")
-2. Выполняем команду клонирования из своей fork-копии
+1. Press the button **FORK** on the repository that you need  to change and do pull request then.
+[Try this for HW](https://git@github.com:gulden-geekbrains/version_control.git "необходимый репозиторий")
+2. Cloning command for fork-copies
 ```sh
 git clone git@github.com:*YOURE_GITHUBNAME*/version_control.git
 ```
-3. Создаем новую ветку и вносим необходимые изменения в файл
+3. Make new branch and alter the file.
 ```sh
-git checkout -b updatereadme
-vim README.md
-git add README.md
+git branch <branch_name>
+git checkout <branch_name>
+*add your changes*
+git add <file_name>
 git commit -m "Добавили инструкцию как создать pull request"
 ```
-4. Делаем push  
+4. Make push  
 ```sh
 git push --set-upstream origin updatereadme
 ```
 
 If it is your first pushing, than you should try to connect accounts. After you do this? your version of document will be disolayed in web.
 
-5. Look at your web repository. Chouse branch **updatereadme** and press the button **Compare & pull request**
+5. Look at your web repository. Chouse branch **<branch_name>e** and press the button **Compare & pull request**
 
